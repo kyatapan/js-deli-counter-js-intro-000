@@ -27,11 +27,14 @@ function currentLine(katzDeliLine) {
     }
     announcement = announcement.concat(` ${i}. ${katzDeliLine[i-1]}`);
     
-    
-/*    for(var i=0; i<katzDeliLine.length; i++) {
+//Unable to fit the pattern of spaces and commas of the example without bringing the last person on line outside of the loop
+
+// Also wrote the following 'for loop' that leaves a trailing comma after the last person.
+/*     
+for(var i=0; i<katzDeliLine.length; i++) {
       announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
     }
-    */
+*/
    
     
     return announcement;
