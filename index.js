@@ -21,14 +21,18 @@ function currentLine(katzDeliLine) {
   else{
     var announcement = 'The line is currently:';
     var i=1;
-    while ()
+    while (i<katzDeliLine.length) {
+      announcement = announcement.concat(` ${i}. ${katzDeliLine[i-1]},`);
+      i++;
+    }
+    announcement = announcement.concat(` ${i}. ${katzDeliLine[i-1]}`);
     
     
 /*    for(var i=0; i<katzDeliLine.length; i++) {
       announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
     }
     */
-    do while {announcement = announcement.concat(` ${i+1}.${katzDeliLine[i]},`);
+   
     
     return announcement;
   }
