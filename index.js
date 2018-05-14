@@ -32,7 +32,7 @@ function currentLine(katzDeliLine) {
 // Also wrote the following 'for loop' that leaves a trailing comma after the last person.
 /*     
 for(var i=0; i<katzDeliLine.length; i++) {
-      announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
+announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
     }
 */
    
