@@ -20,8 +20,8 @@ function currentLine(katzDeliLine) {
   }
   else{
     var announcement = 'The line is currently:';
-    for(var i=0; i<katzDeliLine.length; i++) {
-      announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
+//    for(var i=0; i<katzDeliLine.length; i++) {
+//      announcement = announcement.concat(` ${i+1}. ${katzDeliLine[i]},`);
     }
     return announcement;
   }
